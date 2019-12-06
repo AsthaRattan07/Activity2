@@ -1,7 +1,7 @@
 
 #include <stdio.h> 
   
-int n;
+int n=6;
 void fun(int arr[])  // SAME AS void fun(int *arr) 
 { 
    int *Ptr=&n;
