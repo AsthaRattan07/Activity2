@@ -1,9 +1,9 @@
 
 #include <stdio.h> 
   
-int n=6;
+
 void fun(int arr[])  // SAME AS void fun(int *arr) 
-{ 
+{ int n=6;
    int *Ptr=&n;
    printf("\nArray size inside fun() is %d", arr[2]); 
 } 
